@@ -74,6 +74,7 @@ def test_evaluate_complex_expression():
     equals("(3+4)-(1+2)", {}, 4)
     equals("3+4*2", {}, 11)
     equals("(1+2)*3",{},9)
+    equals("(1+2)*(2-2)",{},0)
 
 
 if __name__ == "__main__":
